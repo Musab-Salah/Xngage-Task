@@ -5,8 +5,8 @@ footer {
 }
 
 .ContainerFooter {
-    display: flex;
     flex-wrap: nowrap;
+    display: flex;
     flex-direction: row;
     gap: 50px;
     justify-content: center;

@@ -38,8 +38,8 @@ function ChangeMode(Mode) {
         document.documentElement.style.setProperty('--dropdown-box-shadow-color', '#373949');
         document.documentElement.style.setProperty('--dropdown-text-color', '#2f313e');
         document.documentElement.style.setProperty('--dropdown-content-box-shadow-color', '#373949');
-        document.documentElement.style.setProperty('--footer-background-color', '#2f313e');
         document.documentElement.style.setProperty('--footer-text-color', '#CCCCCC');
+        document.documentElement.style.setProperty('--footer-background-color', '#2f313e');
         OpenCloseList();
     }
 

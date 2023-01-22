@@ -5,8 +5,8 @@ header {
     height: 100px;
     top: 0;
     font-size: 20px;
-    position: static;
     box-shadow: 0 4px 8px 0 var(--header-box-shadow-color);
+    position: static;
 }
 
 .ContainerHeader {
