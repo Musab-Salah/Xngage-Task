@@ -1,0 +1,104 @@
+@import "global.css";
+
+body {
+    margin: 0;
+    background-color: var(--body-background-color);
+}
+
+.ContainerWrappingCard {
+    border-left: 1px solid var(--wrapping-container-card-line-color);
+    border-right: 1px solid var(--wrapping-container-card-line-color);
+    width: 75%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ContainerCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.SingleCard {
+    width: 220px;
+    font-family: Calibri;
+    height: 290px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 7.5px var(--single-card-box-shadow-color);
+    text-align: center;
+    position: relative;
+}
+
+.SingleCard:hover {
+    transform: translateY(-1px) scale(1.05) translateZ(0px);
+    transition: 0.3s ease;
+}
+
+.SingleCardTitle {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: var(--single-card-title-text-color);
+}
+
+.SingleCardDescription {
+    padding-left: 10px;
+    text-align: left;
+    height: 20px;
+    font-size: 12px;
+    color: var(--single-card-description-text-color);
+}
+
+.SingleCard img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.ContainerSingleCardButtons {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+}
+
+.SingleCardButtons {
+    height: 30px;
+    width: 90px;
+    border: none;
+    box-shadow: 0 0 7.5px var(--single-card-buttons-box-shadow-color);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 13px;
+    font-family: Calibri;
+    color: var(--single-card-buttons-text-color);
+    background-color: var(--single-card-buttons-background-color);
+}
+
+.SingleCardButtons:hover {
+    background-color: var(--single-card-buttons-hover-color);
+}
+
+.SingleCardBadge {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    background: var(--single-card-badge-background-color);
+    color: var(--single-card-badge-text-color);
+    line-height: 25px;
+    font-size: 13px;
+}

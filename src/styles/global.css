@@ -1,0 +1,55 @@
+:root {
+
+    /* body */
+    --body-background-color: #121212;
+
+    /* header */
+    --header-background-color: #252525;
+    --header-box-shadow-color: #AAAAAA;
+
+    /* nav */
+    --nav-text-color: #CCCCCC;
+    --nav-background-color-hover: #AAAAAA;
+    --nav-text-color-hover: #EEEEEE;
+
+    /* dropdown */
+    --dropdown-box-shadow-color: #AAAAAA;
+    --dropdown-text-color: #000000;
+    --dropdown-background-color: #ffba08;
+    --dropdown-content-box-shadow-color: #AAAAAA;
+    --dropdown-content-background-color: #F2F2F2;
+    --dropbtn-hover-color: #faa307;
+
+    /* card */
+    --wrapping-container-card-line-color: #252525;
+    --single-card-box-shadow-color: #AAAAAA;
+    --single-card-title-text-color: #FFFFFF;
+    --single-card-description-text-color: #CCCCCC;
+    --single-card-buttons-box-shadow-color: #AAAAAA;
+    --single-card-buttons-text-color: #000000;
+    --single-card-buttons-hover-color: #faa307;
+    --single-card-badge-text-color: #000000;
+    --single-card-buttons-background-color: #ffba08;
+    --single-card-badge-background-color: #4CAF50;
+
+
+    /* footer */
+    --footer-background-color: #F2F2F2;
+    --footer-text-color: #777777;
+}
+
+/* scrollbar & selection */
+::-webkit-scrollbar {
+    height: 8px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00b8fc;
+    border-radius: 10px;
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0.68);
+    color: #FFFFFF;
+}

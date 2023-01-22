@@ -1,0 +1,27 @@
+@import "global.css";
+
+footer {
+    background-color: var(--footer-background-color);
+}
+
+.ContainerFooter {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 100%;
+    white-space: nowrap;
+    height: 100px;
+    position: static;
+}
+
+footer p {
+    text-align: center;
+    color: var(--footer-text-color);
+    font-size: 30px;
+    margin-top: auto;
+    font-family: Calibri;
+}
