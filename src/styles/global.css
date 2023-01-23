@@ -1,5 +1,5 @@
 :root {
-
+   
     /* body */
     --body-background-color: #121212;
 
@@ -15,10 +15,10 @@
     /* dropdown */
     --dropdown-box-shadow-color: #AAAAAA;
     --dropdown-text-color: #000000;
-    --dropdown-background-color: #ffba08;
+    --dropdown-background-color: #00b8fc;
     --dropdown-content-box-shadow-color: #AAAAAA;
     --dropdown-content-background-color: #F2F2F2;
-    --dropbtn-hover-color: #faa307;
+    --dropbtn-hover-color: #00A9E7;
 
     /* card */
     --wrapping-container-card-line-color: #252525;
@@ -27,9 +27,9 @@
     --single-card-description-text-color: #CCCCCC;
     --single-card-buttons-box-shadow-color: #AAAAAA;
     --single-card-buttons-text-color: #000000;
-    --single-card-buttons-hover-color: #faa307;
+    --single-card-buttons-hover-color: #00A9E7;
     --single-card-badge-text-color: #000000;
-    --single-card-buttons-background-color: #ffba08;
+    --single-card-buttons-background-color: #00b8fc;
     --single-card-badge-background-color: #4CAF50;
 
     /* footer */
